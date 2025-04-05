@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exercise 1</title>
+</head>
+<body>
+    <h1>JS Exercise 1</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="num1">Enter First Number:</label>
+            </td>
+            <td>
+                <input type="text" name="num1" id="num1" placeholder="Enter first number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">Enter Second Number:</label>
+            </td>
+            <td>
+                <input type="text" name="num2" id="num2" placeholder="Enter second number">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="calculate()">Calculate</button>
+                <button onclick="clear()">Clear</button>
+            </td>
+        </tr>
+    </table>
+
+  
+    <p>Sum: <span id="sum"></span></p>
+    <p>Difference: <span id="difference"></span></p>
+    <p>Product: <span id="product"></span></p>
+    <p>Quotient: <span id="quotient"></span></p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
